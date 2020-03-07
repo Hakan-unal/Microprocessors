@@ -1,0 +1,6 @@
+MOV AX, 100h
+MOV DS, AX
+MOV DS:[1000h], 34h
+MOV DS:[2000h], 34h
+
+ret
